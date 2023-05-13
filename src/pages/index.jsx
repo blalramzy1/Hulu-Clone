@@ -7,7 +7,7 @@ import Results from './components/Results';
 import { GetServerSideProps } from 'next';
 
 export default function Home({results}) {
-  console.log(results)
+  // console.log(results)
   return (
     <div>
       <Head>
